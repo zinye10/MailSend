@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   sendEmail() {
     const name = 'Zin Ye!';
     const emailData = {
-      to: 'octoberprince.1995@gmail.com',
+      to: '@gmail.com',
       subject: 'Test Email',
       html: `<h1>This is a Test Email</h1><p>This email contains <strong>${name}</strong> content.</p>`,
     };
